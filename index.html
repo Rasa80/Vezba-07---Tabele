@@ -7,6 +7,131 @@
     <title>Tabele</title>
 </head>
 <body>
- <p>a</p>   
+  <!--Tabela bez okvira-->
+  <hr>
+  <table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        </tr>
+    <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+ </table> 
+ <hr> 
+<!--Tabela sa okvirom-->
+<table border="1">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+</table>
+<hr> 
+<!--Naslovne celije-->
+<table border="1">
+    <tr>
+        <th>*</th>
+        <th>ponedeljak</th>
+        <th>utorak</th>
+        <th>sreda</th>
+        <th>cetvrtak</th>
+        <th>petak</th>
+    </tr>
+    <tr>
+        <th>jutro</th>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+    </tr>
+    <tr>
+        <th>vece</th>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+    </tr>
+</table>
+<hr>
+<!--Spajanje celija-->
+<table border="1">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="2">4</td> <!--Horizontala-->
+        <td>6</td>
+    </tr>
+</table>
+<hr>
+<table border="1">
+    <tr>
+        <td rowspan="2">1</td> <!--Vertikala-->
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+</table>
+<hr>
+<!--Regioni tabela-->
+<table>
+    <thead>
+        <tr>
+            <td>header cell</td>
+        </tr>
+        <tr>
+            <td>header cell</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>footer cell</td>
+        </tr>
+        <tr>
+            <td>footer cell</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>body cell</td>
+        </tr>
+        <tr>
+            <td>body cell</td>
+        </tr>
+    </tbody>
+</table>
+<hr> 
 </body>
 </html>
